@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+  int score = 20;
+  if (score < 10) {
+    printf("GOOD MORNING.");// when this condition is true
+  } else if (score > 20){
+  printf("GOOD EVENING.");
+} else {
+  printf("GOOD AFTERNOON.");//otherwise false condition
+  return 0;
+}
+                       output=GOOD AFTERNOON

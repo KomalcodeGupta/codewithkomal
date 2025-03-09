@@ -1,0 +1,299 @@
+                                                           INSTALLATION OF REACT JS---
+
+
+
+
+FIRST OF ALL TO INSTALL NODE JS AND  AFTER THAT TO OPEN THE COMMAND PROMPT WITH THE HELP OF WINDOW SEARCH AND TO TEXT THE FOLLOWING STEPS-
+
+FIRST STEP-node -v                    press enter    (NODE VERSIONS)
+ 
+SECOND STEP-npx create-next-app@latest         press enter to press enter until then the my-app do not show on your screen after then
+
+THIRD STEP- npm run dev
+                                                        
+
+
+                                                       REACT JS---
+
+                                
+
+                                              What is Reactjs?
+ 
+React is the library of the javascript and it is developed and maintain by facebook .
+it is used to create the user interface(frontend).it is open source programe and single page programme.
+
+
+
+                                          How to REACTJS works?
+
+
+the react is work as following components-
+
+
+
+                                    HEADER 
+
+
+UPPER SIDE                         MIDDLE ARTICLE
+   MENU
+
+
+
+ LOWER SIDE 
+  MENU
+                           
+
+
+                                    FOOTER
+
+
+ 
+                                                FEATURES OF THE REACT JS?
+
+THERE ARE MANY FEATURES OF THE REACT JS -
+
+JSX- javascript + html
+
+COMPONENT- the separate component working like header.
+
+ONE-WAY DATA BINDING-source code to destination i.e one way binding
+
+VIRTUAL DOM-it is the original dom copy before the running in the browser. DOM stand for (document object model). 
+
+SIMPLICITY- IT IS manage very easy and working to simple way.
+
+PERFORMANCE-it has best performance to build and creat the UI(frontend).
+
+
+
+                          
+                                          FOLDER /PROJECT STRUCTURE OF THE REACT---
+
+
+*Public = under this file-
+ <>index.html file =all html write in this file.
+favicon.icon=  used to favicon icons.
+
+*scr = under this file-
+app.js = it is the parent file of the another child file. 
+style.css =it has used all css code .
+.gitignore = it is used to a git repository to ignore the file and directories which are unnecessary to the project.
+
+
+*node-modules = ALL DEPENDENCIES/LIBRARIES ARE INSTALL IN THIS FILE.
+
+*{}Package-json = THE REQUIRED SCRIPT AND DEPENDENCIES IN THIS FILE.
+
+
+
+
+                                                          WHAT IS NEXT JS?
+
+
+ANSWER-IT IS THE OPEN SOURCE WEB DEVELOPEMENT FRAMEWORK BASED ON REACT DEVELOPED BY VERCEL IN 2016.NEXT JS STANDS FOR OUT FOR ITS STANDING CAPABILITIES ,INCLIUDING SERVER SIDE RENDERING AND ENHANCED SEARCH ENGINE OPTIMIZATION. IT CAN WORK AS BOTH FRONTENED AND BACKEND. IT IS THE CLIENT AND SERVER RENDERING FRAMEWORK.NEXT JS IS USED TO FAST RUNNING AND LOADING APPLICATION.
+
+
+
+                      
+                                                         WHAT IS TYPE SCRIPT?
+
+ANSWER- TYPESCRIPT IS THE SYNTACTIC SUPERSET(IT SHARES THE SAME BASE SYNTAX AS JAVASCRIPT BUT ADDS SOMTHINGS TO IT) OF THE JAVASCRIPT WHICH ADDS STATIC TYPING .IT IS USED AS OPEN-SOURCE OBJECT OREINTED PROGRAMMING LANGUAGE IN WHICH IS USED TO CHECK THE DATATYPE AND VARIABLE,FUNCTION IT IS DEVELOPED BY MICROSOFT IN 2012.
+
+
+
+                                                          WHAT IS TALWIND CSS?
+
+
+ANSWER- TALWIND IS THE OPEN-SOURCE CSS FRAMEWORK.TI IS THE FIRST UTILITY-FIRST CSS FRAMEWORK FOR RAPIDLY BUILDING CUSTOM DESIGNS.IT IS DEVELOPED BY "ADAM WATHAN" IN 2017.THE MAIN FEACTURE OF THIS LIBRARY IS THAT UNLIKE OTHER CSS FRAMEWORK LIKE BOOTSTRAP.IT IS NOT DEFINE THE SERIES OF THE PREDEFINE CLASSES FOR ELEMENT SUCH AS BUTTON OR TABLES.  
+
+
+     
+                                                         FEATURES OF TALWIND CSS---
+
+
+1.FASTER DEVELOPEMENT WITH UTILITIES CLASSES .
+2.HIGHLY COUSOMIZABLE DESIGN SYSTEM .
+3.IT HELPS MAINTAIN CONSISTENCY AND SPEED UP THE UI DESIGN PROCESS.
+4.REDUCES THE CSS FILE SIZE.
+5.IT PROVIDES FREE OPEN-SOURCE PROGRAMMING.
+
+
+ developer command- npm run dev
+
+
+                                                           What is props in react?
+
+answer-the primary use of the props is to pass data and callback function to child components.it allows for a unidirectional data flows,
+where the parent dictates the values and behavior of the child components.
+
+
+
+example- function Message(props) {
+  return <div>
+{props.message}
+</div>
+}
+// Or as an arrow function
+const Message = (props) =>  <div>
+{props.message}
+</div>
+
+
+
+
+
+                                                             What is JSON?
+
+
+answer-JSON stands for JavaScript Object Notation.
+JSON is a lightweight data interchange format.
+JSON is language independent .
+JSON is "self-describing" and easy to understand.
+
+
+
+
+
+                                                             what is HOOKS?
+
+
+answer-Hooks are more restrictive than other functions. You can only call Hooks at the top of your components (or other Hooks). If you want to use useState in a condition or a loop, extract a new component and put it there.
+
+
+
+https://blog.logrocket.com/guide-usestate-react/#:~:text=useState%20is%20React%20Hook%20that,the%20setter%20function%20is%20called
+
+
+
+https://www.geeksforgeeks.org/create-a-calculator-app-using-next-js/
+
+
+                                                       How can used to loop in react?
+
+
+answer- A function in a react by using javascript for loop or array method like map().
+
+example-. import React from 'react'; 
+function List() { 
+const fruits = ['Apple', 'Banana', 'Orange', 'Mango']; 
+const renderList = () => { 
+const listItems = []; 
+for (let i = 0; i < fruits;i++)
+return(
+
+)
+}
+
+
+import React from 'react';
+ const items = ['Apple', 'Banana', 'Cherry']; 
+function FruitList() { 
+return ( <ul> {items. map((item, index) => ( <li key={index}>{item}</li> ))} </ul> ); } 
+export default FruitList;
+
+
+
+                                                 How to used the route in react/nextjs?
+
+
+answer-the nextjs router allows you do client-side route transitons between pages ,similar toa single-page application . 
+ a react component called link is provided to do this client -side route transition.
+
+
+                                                   what is nextjs route?
+   
+
+answer-Next.js offers a simple and intuitive way to manage routing using a file-based system.
+
+*Static Routes
+
+// pages/index.js.js
+
+const Home = () => { 
+    return(
+        <div>
+            Home Page
+        </div>
+    );
+}
+export default Home;
+
+
+
+
+
+*Nested Routes
+
+
+//pages/user/About.js
+
+const About = () => { 
+    return(
+        <div>
+            About Page
+        </div>
+    );
+}
+export default About;
+
+
+
+*Dynamic Routes
+
+// pages/users/[id].js
+
+import { useRouter } from 'next/router';
+
+const User= () => {
+  const router = useRouter();
+  const { id } = router.query;
+
+  return <p>User: {id}</p>;
+};
+
+export default User;
+
+
+
+
+*API Routes
+
+
+// Filename : pages/api/hello.js
+
+export default function handler(req, res) {
+    res.status(200).json({ message: 'Hello, world!' });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

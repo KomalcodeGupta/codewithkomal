@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+  int x =100;
+  int y = 99;
+  
+  printf("%d", x<y); // the statement condtion is true to show 1 otherwise false show 0
+  return 0;
+}
+
+             output=0

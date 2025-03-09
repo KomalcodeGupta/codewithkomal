@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+  int x = 20;
+  int y = 18;
+  if (x > y) {
+    printf("GOOD MORNING");// when this condition is true
+  }  
+  else
+  printf(" GOOD AFTERNOON");//otherwise false condition
+  return 0;
+}
+                         output=GOOD MORNING

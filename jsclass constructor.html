@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JAVASCRIPT CLASS CONSTRUCTOR </h2>
+<p id="demo"></p>
+<script>
+   class person{
+constructor(name,age,address ){
+this.name= name;
+this.age=age ;
+this.address= address;
+}
+  }
+const myperson1= new person(" KOMAL",22 ,"DELHI");
+const myperson2= new person( " KUHU",14 ,"AURANGABAD");
+
+document.getElementById("demo").innerHTML =" I AM"+  myperson1.name+". "+ "MY AGE IS "+myperson1.age+". "+"I LIVE IN "+myperson1.address+"<br>"+" MY SISTER NAME IS"+myperson2.name+". "+"HER AGE IS "+myperson2.age+". " +"HER LIVE AT " +myperson2.address;
+
+</script>
+
+</script>
+</body>
+</html>

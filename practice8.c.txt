@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+ inta =10,b=20c=30;
+if(c>b>a)
+printf("TRUE");
+else
+printf("FALSE");
+
+return 0;
+}
+               output=FALSE

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <h1> JAVA SCRIPT USE TERNARY OPERATOR </h1>
+    <p> input your age and click the button  </p>
+    <p id ="demo"></p>
+    <input id= "age"   />
+    <button onclick="myFunction()"> click here</button>
+    <script>
+   function myFunction (){ 
+    let age= document.getElementById ("age").value ; 
+    let capable= (age<18 ) ? " TO YOUNG PERSON":"TO ADULT PERSON ";
+    document.getElementById("demo").innerHTML= capable  ;
+   }
+    </script>
+</body>
+</html>

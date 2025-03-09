@@ -1,0 +1,171 @@
+1.ans-a
+2.ans-b
+3.ans-a
+4.ans-b
+5.ans-b
+6.answer- main different between null nad undefine are-
+NULL IN JAVASCRIPT DISPLAY EMPTY SPACE BUT THE UNDEFINED DATA TYPE IS DISPLAY THE UNDEFINED VALUE .
+
+
+
+ 7.answer- arrow function -the arrow function in javascript is define as the shortest function value write to give the arrow function i.e =>.
+  the example will be-
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+
+let x=( a,b)=>a+b;
+document.write(x(11,12 ));
+let y= (a,b)=>a-b;
+document.write(x(11,12 ));
+let z = (a,b)=>a*b;
+document.write(x(11,12 ));
+let q = (a,b)=>a/b;
+document.write(x(11,12 ));
+
+</script>
+</body>
+</html>
+
+
+
+8.answer-ternary operatort-
+TERNARY OPERATOR IN JAVASCRIPT TO DEFINE THE CONDITIONAL VALUES .IT IS DENOTED AS    CONDITION ?if : else.
+EXAMPLE -
+<!DOCTYPE html>
+<html>
+<body>
+<p id ="demo"></p>
+<script>
+let x=age;
+let result=age<18 ? NOT CAPABLE  FOR VOTING : CAPABLE FOR VOTING;
+document.getElementbyId(" demo")inner.HTML=result;
+
+
+
+</script>
+</body>
+</html>
+
+
+
+9.answer-FACTORIAL IN JAVASCRIPT-
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+let x=10;
+ for(i=0;i<=x){
+factorial=factorial*x;
+}
+document.write(factorial);
+
+
+</script>
+</body>
+</html>
+
+
+
+10.answer-SPILICE METHOD - THE SPILICE METHOD IS USED TO ADDING AND REMOVING THE ARRAY OF THE ELEMETNS.
+
+EXAMPLE-<!DOCTYPE html>
+<html>
+<body>
+<script>
+
+function
+ fruits={apple,lichi,pineapple,watermelon,pomigrains}
+fruits.splice(1,2){
+ document.getElementById("demo").innerHTML=fruits;
+{
+
+</script>
+</body>
+</html>
+
+
+11.answer-the for loop is another modern way to loop through an array. 
+
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+<script>
+fuction myfunction(){
+arr=[a,s,d,f,g];
+
+
+
+
+</script>
+</body>
+</html>
+
+
+12.answer- 3+'5'-'7'
+ FIRST OF ALL WE SUBTRACT THE STRINGS SAME VALUE-
+'5'-'7'='2'
+THEN ,
+3+'2'=32 
+
+
+13.answer- CLASS- THE CLASS IN JAVASCRIPT TO DEFINED THE PARTICULAR VARIABLES IN IN ANY ARRAY OF THE ELEMENT-
+OBJECT - IT IS DEFINED AS THE THE ELEMENT IS WRITE UNDER  THE {}CURLY BRACES .
+ 
+
+
+EXAMPLE OF CLASS-
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+<script>
+class cars{
+ ford ,bmw, buakti,desire ,audi}
+this.cars=ford;
+this.cars=bmw;
+this.cars=bukati;
+this.cars=desire;
+this.cars=audi;
+
+document.getElementById("demo").innerHTML= cars;
+</script>
+</body>
+</html>
+ 
+
+
+
+
+
+EXAMPLE OF OBJECT-
+ <!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+<script>
+class student(name,age,city ){  
+ let obj1 =(rahul,30,gaya );
+doument.write(obj1,.name);
+doument.write( obj1.age);
+doument.write( obj1.city);
+let obj2=(rohit,34,patna);
+doument.write( obj2.name);
+doument.write( obj2.age);
+doument.write( obj2.city);
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

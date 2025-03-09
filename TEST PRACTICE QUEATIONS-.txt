@@ -1,0 +1,59 @@
+1.ans-a
+2.ans-d
+3.ans-c
+4.ans-d
+5.ans-d
+6.ans-b
+7.ans-b
+8.ans-c
+9.ans-c
+10.ans-c
+
+
+
+
+
+11.ans- The basics data type of the c language are following in the below-
+int -to store the integer value .(ex- 7437,688,90,etc.)
+char-to store the single character.(ex-letter, plain etc.)
+float- to store the  decimal value.(ex-6.6,7.8,56.2 etc.)
+double-to store the decimal value before and after the 15to 16 digit of decimal.(ex-893779753779378.79,9692880787977.7809etc.)
+12.ans-IN c  language the input refers to take any information  to the user.like  scanf("%d",i) etc.and the output refers to take the any information to the computer like printf(" HELLO INDIA")etcs .
+#include <stdio.h>
+int main(){
+int fact,
+for(int i=5,i<=5,i++;)
+fact=fact*i;
+printf(" ENTER THE ANY NUMBER.");
+scanf("%d",&fact);
+}
+
+
+13.ans-The break is used to jump out the given number to given in the programme.
+and the continue is used as skip the given number in programme.
+           BREAK;
+EXAMPLE-  #include <stdio.h>                                                                                                            
+            int main(){
+         while (int i=1; i<=5; i++);                                             
+         
+          break;
+{
+         printf("%d\n",i);
+}
+return 0;
+}
+
+                           CONTINUE;
+
+
+
+
+          #include<stdio.h>
+            int main(){
+         while (int i=1; i<=5; i++);
+          continue;
+{
+         printf("%d\n",i);
+}
+return 0;
+}                                                                              

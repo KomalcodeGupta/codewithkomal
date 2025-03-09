@@ -1,0 +1,20 @@
+                                                the even and odd are printed with take the user input- 
+
+
+
+
+
+
+
+#include <stdio.h>
+int main(){
+    int num;
+    printf("ENTER ANY NUMBER:");
+    scanf("%d",&num);
+    if (num %2==0){
+        printf("%d  THE NUMBER IS AN EVEN:",num);
+    }else{
+        printf("%d  THE NUMBER IS AN ODD:",num);
+    }
+}                                                             output= ENTER ANY NUMBER:8
+                                                                                  8  THE NUMBER IS AN EVEN:

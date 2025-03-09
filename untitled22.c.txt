@@ -1,0 +1,75 @@
+#include <stdio.h>
+
+int main() {
+  int myNumbers[] = {300, 500, 700, 900,1100};
+  int i;
+  
+  for (i = 0; i < 5; i++) {
+    printf("%d\n", myNumbers[i]);
+  }
+ 
+  return 0;
+} 
+                            output= 300
+                                    500
+                                    700
+                                    900
+                                    1100  
+                                         
+                 [ Change an Array Element ] 
+  
+
+
+ #include <stdio.h>
+
+int main() {
+  int myNumbers[] = {300, 500, 700, 900,1100};
+  myNumbers[2]= 600;
+  
+ // for (i = 0; i < 5; i++) {
+    printf("%d", myNumbers[2]);
+  //}
+ 
+  return 0;
+}                  
+                                             output= 600
+
+
+
+
+                                      [Set Array Size]
+
+#include <stdio.h>
+int main(){
+int myNumbers[5];
+
+myNumbers[0]=10;
+myNumbers[1]=20;
+myNumbers[2]=30;
+myNumbers[3]=40;
+myNumbers[4]=50;
+myNumbers[5]=60;
+printf("%d\n",myNumbers[4]);
+
+
+return 0;
+}
+
+          output= 50
+   
+                                  
+                  [USE TWO DIMENSION OF AN ARRAY]
+
+
+
+#include <stdio.h>
+
+int main() {
+  int matrix[2][3] = { {1, 4, 2}, {3, 6, 8} };
+  printf("%d", matrix[1][2]);
+ 
+  return 0;
+}
+
+                               output=8
+                                   

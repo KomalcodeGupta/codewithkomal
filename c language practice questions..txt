@@ -1,0 +1,62 @@
+1. what is c programming language ?describe its baiscs syntax.
+ ans- c is the most special programming language. it was developed by "DENNIS RITCHIE" in 1972.it is high demanded at all times.
+it is simple to read. it is mostly used in games and computer graphics.it si low programming level language. it is robust language.
+it is used in software development field.it structed oriented language.it is highly portable.
+THE BASICS SYNTAX OF C PROGRAMMING LANGUAGE-
+header
+main() function
+variables declaration
+body 
+return type of programme.
+
+#include <stdio.h>
+int main ()
+{
+printf("HELLO WORLD!");
+return 0;
+}
+
+output- HELLO WORLD!
+
+
+2.why learn c programming language?
+ans- c programming is learning because we will able to understand and visulise the inner working of computer system(like allocation and memory management).
+it provides the strong foundation in programming language concepts such as data type, variables, loops ,arrays etc.it has flexibility,protability and 
+safety to typing and numerical accuracy.
+
+
+
+3. what is I/O in c language?
+ans- In c language, input refers to providing the 
+some information or data to be utilised in program.
+ and output refers to writing the data and information 
+on any printer file like printf("HII"); and displayed on screen.     
+
+
+
+4. what are the basics data types supported in the c programming language?
+ans- there are four basics data types are supported in the c programming language-
+int-use to write the integer type
+Char-use to write the charater type
+float-use to write the float like decimal type
+double- it capable for to holding about 15 to 16 digit after the decimal point
+
+
+
+
+
+
+
+5.write the c programming to enter two nimber and find their sum ?
+     
+ans-#include<stdipo.h>
+int main(){
+int num1=100;
+int num2= 400;
+int sum=num1 +num2;
+printf("%d\n",sum);
+
+return 0;
+
+}
+ output-500

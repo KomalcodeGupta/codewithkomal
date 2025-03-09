@@ -1,0 +1,82 @@
+                                                                USING FUNCTION IN C LANGUAGE-
+
+#include<stdio.h>                                                               
+void myfunction(){
+
+printf("My function is printed :\n ");
+}
+char main(){
+myfunction();
+myfunction();
+myfunction();
+myfunction();
+myfunction();
+myfunction();
+
+return 0;
+}
+
+
+output=My function is printed :
+ My function is printed :
+ My function is printed :
+ My function is printed :
+ My function is printed :
+ My function is printed :
+   
+                                                              USING FUNCTION PARAMETER IN C LANGUAGE-
+
+
+#include<stdio.h>
+void myfunction(char name[],int roll, int class,int obtained marks){
+printf("my name %c roll:%d,readinclass:%d, obtained marks:%d ";name,roll, class ,obtainedmarks);
+
+
+}
+intmain(){
+myfunction("k,1,10,450");
+myfunction("u,2,11,350");
+myfunction("h,3,12,250");
+myfunction("u,4,8,150");
+return 0;
+}
+
+
+output=my name k roll:1 readin class:10 obtained marks:450
+       my name u roll:2 readin class:11 obtained marks:350
+       my name h roll:3 readin class:12 obtained marks:250
+       my name u roll:4 readin class:8  obtained marks:150
+
+
+
+                                                              SCOPE-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+int i; 
+while(0,i<4)
+{
+printf("loop")
+i++;
+}
+return 0;
+
+}
+               output=loop 5

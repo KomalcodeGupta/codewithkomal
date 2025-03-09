@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript object accessor like getter and setter . </h2>
+<p id="demo"></p>
+<script>
+    //getter and setter 
+   const person= {
+firstname: "komal", 
+lastname:"gupta", 
+age: 22 ,
+address:" ",   
+get age(){
+return this.age;
+}
+set add(value){
+this.address=value;
+
+}
+   };
+person.address= patna;
+document.getElementById("demo").innerHTML=person.age+"<br>"+person.add;
+</script>
+</body>
+</html>

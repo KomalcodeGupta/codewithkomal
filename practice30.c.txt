@@ -1,0 +1,29 @@
+                                                          SWITCH -
+
+
+
+#include<stdio.h>
+int main(){
+int games = 3;
+switch (games){
+case1:
+printf("CRICKET");
+break;
+case2:
+printf(" FOOTBALL");
+break;
+case3:
+printf("HOCKEY");
+break;
+case4:
+printf("TENNIS");
+break;
+case5:
+printf("BADMINTON");
+break;
+case6:
+printf("BASKET BALL");
+break;
+}return 0;
+//default 0;
+ }                                   output=HOCKEY

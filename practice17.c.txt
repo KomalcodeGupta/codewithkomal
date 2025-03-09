@@ -1,0 +1,56 @@
+#include <stdio.h>
+
+int main() {
+  int i = 29;
+  
+  do {
+    printf("%d\n", i);
+    i++;
+  }
+  while (i < 40);
+  
+  return 0;
+}
+output= 
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+
+int main() {
+  int i = 10;
+  
+  do {
+    printf("%d\n", i);
+    i++;
+  }
+  while (i>0); //IN REVERSE CONDITION IT WILL PRINT INFINITE NUMBER
+  
+  return 0;
+}                                                                             
+
+
+
+output= infinity
+
+
+
+
+

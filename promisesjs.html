@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        </head>
+    <body>
+        <h1>THE PROMISES IN JAVASCRIPT</h1>
+        <p >It is used to link the producing code and consuming code.</p>
+        <p id="demo"></p>
+    </body>
+
+<input type= "text" placeholder=" Enter the value">       
+ <button onclick="  ">click here</button>
+
+<script>
+
+    function myDisplayer(some) {
+  document.getElementById("demo").innerHTML = some;
+}
+let myPromise = new Promise(function(myResolve, myReject) {
+  let x = 2023;
+
+// some code (try to change x to 5)
+
+  if (x == 2024) {
+    myResolve("welcome in  this year");
+  } else {
+    myReject("Error present year");
+  }
+});
+myPromise.then(
+  function(value) {myDisplayer(value);},
+  function(error) {myDisplayer(error);}
+);
+</script>
+</html>

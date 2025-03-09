@@ -1,0 +1,43 @@
+include <stdio.h>
+int main(){
+inta,b,c;
+int[3][3][3]=
+{
+ {
+{1,2,3}
+{4,5,6}
+{6,7,8}
+},
+{
+{11,12,13}
+{14,15,16}
+{17,18,19}
+ },
+{
+{21,22,23}
+{24,25,26}
+{27,28,29}
+  },
+};
+printf("3D ARRAY ELEMENTS:\n\n");
+for(a=0;a<3;a++);
+{
+for(b=0;b<;b++);
+  {
+for(c=0;c<3;c++);
+   {
+printf("%d\t",arr[a][b][c]);
+}
+printf("\n");
+ }
+printf("\n");
+  }
+return 0;
+   }
+
+                         output=
+
+
+
+
+

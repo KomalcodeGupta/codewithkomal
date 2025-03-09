@@ -1,0 +1,316 @@
+                                             SOME AREAS ARE FIND TO TAKE THE USER INPUT-
+                                                 
+                                                 SQUARE-
+#include<stdio.h>
+ 
+int main()
+{
+ int s,area ;
+ printf("Enter side 1: ");
+ scanf("%d",&s);
+ printf("Enter side 2: ");
+ scanf("%d",&s);
+area  =s*s;
+printf("AREA OF SQUARE : %d\n",area );
+}                                               
+
+
+output=Enter side 1: 5
+Enter side 2: 5
+AREA OF SQUARE : 25
+
+
+                                                   TRIANGLE-
+  
+
+#include<stdio.h>
+ 
+int main()
+{
+ float  base ,height ,area;
+ printf("Enter base 1: ");
+ scanf("%f",&base);
+ printf("Enter height 2: ");
+ scanf("%f",&height);
+area  =0.5*base*height;
+printf("AREA OF TRIANGLE : %f\n",area );
+}                                             
+
+
+output=Enter base 1: 6
+Enter height 2: 5
+AREA OF TRIANGLE : 15.000000
+
+
+
+
+                                                       CIRCLE-
+
+#include<stdio.h>
+ 
+int main()
+{
+ int  radius  ,area;
+ printf("Enter RADIUS 1: ");
+ scanf("%d",&radius);
+// printf("Enter RADIUS 2: ");
+ //scanf("%d",&radius);
+area  =3.14*radius*radius;
+printf("AREA OF CIRCLE : %d\n",area );
+} 
+
+
+
+output=Enter RADIUS 1: 9
+AREA OF CIRCLE : 254
+
+                                                   RECTANGLE-
+
+  #include<stdio.h>
+ 
+int main()
+{
+ int  length, breath  ,area;
+ printf("Enter length 1: ");
+ scanf("%d",&length);
+printf("Enter breath 2: ");
+ scanf("%d",& breath);
+area  =length*breath;
+printf("AREA OF RECTANGLE : %d\n",area );
+}
+
+
+       
+output=Enter length 1: 6
+Enter breath 2: 7
+AREA OF CIRCLE : 42
+
+
+                                         
+                                                    RHOMBUS-
+
+#include<stdio.h>
+ 
+int main()
+{
+ float  diagonala,diagonalb,area;
+ printf("Enter DIAGONAL 1: ");
+ scanf("%f",&diagonala);
+printf("Enter DIAGONAL 2: ");
+ scanf("%f",&diagonalb);
+area  =0.5*diagonala*diagonalb;
+printf("AREA OF RHOMBUS : %f\n",area );
+}
+
+
+output=Enter DIAGONAL 1: 8
+Enter DIAGONAL 2: 5
+AREA OF RHOMBUS : 20.000000
+  
+
+                                                               VOLUME-
+                                                           CUBE-
+#include<stdio.h>
+ 
+int main()
+{
+ float  side,volume;
+ printf("Enter side 1: ");
+ scanf("%f",&side);
+//printf("Enter DIAGONAL 2: ");
+ //scanf("%f",&diagonalb);
+volume =side*side*side;
+printf("AREA OF RHOMBUS : %f\n",volume );
+} 
+  output=Enter side 1: 4
+AREA OF RHOMBUS : 64.000000               
+
+                                                SQUARE ROOT-
+
+#include<stdio.h>
+ 
+int main()
+{
+ int  l,square;
+ printf("Enter LENGTH 1: ");
+ scanf("%d",&l);
+square =l*l;
+printf("SQUARE OF ANY NUMBER: %d\n",square );
+}
+
+output=
+     Enter LENGTH 1: 55
+SQUARE OF ANY NUMBER: 3025
+
+
+                                                        CUBE ROOT-
+ 
+#include<stdio.h>
+ 
+int main()
+{
+ int  l,cube;
+ printf("Enter LENGTH 1: ");
+ scanf("%d",&l);
+square =l*l*l;
+printf("CUBE OF ANY NUMBER: %d\n",cube);
+
+}
+
+
+output=Enter LENGTH 1: 6
+CUBE OF ANY NUMBER: 216
+                                                  MARKSHHET -
+     
+
+#include<stdio.h>
+ 
+int main()
+{
+    char studentname;
+ int studentrollnum,m1,m2,m3,m4,m5,total;
+ float average;
+ printf("ENTER STUDENT NAME:");
+ scanf("%c",&studentname),
+ printf("ENTER STUDENT ROLL NUMBER:");
+ scanf("%d",&studentrollnum);
+printf("ENTER MARKS 1 : ");
+ scanf("%d",&m1);
+printf("ENTER MARKS 2: ");
+ scanf("%d",&m2);
+printf("ENTER MARKS 3: ");
+ scanf("%d",&m3);
+ printf("ENTER MARKS 4: ");
+ scanf("%d",&m4);
+ printf("ENTER MARKS 5: ");
+ scanf("%d",&m5);
+ total=m1+m2+m3+m4+m5;
+ average=total/5;
+ printf("%c\n",studentname);
+printf("%d\n",studentrollnum);
+printf("%d\n",m1);
+printf("%d\n",m2);
+printf("%d\n",m3);
+printf("%d\n",m4);
+printf("%d\n",m5);
+printf("%d\n",total);
+printf("%f",average);
+}
+
+
+
+soutput= ENTER STUDENT NAME:9
+ENTER STUDENT ROLL NUMBER:7
+ENTER MARKS 1 : 90
+ENTER MARKS 2: 80
+ENTER MARKS 3: 70
+ENTER MARKS 4: 75
+ENTER MARKS 5: 65
+9
+7
+90
+80
+70
+75
+65
+380
+76.000000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                              
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

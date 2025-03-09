@@ -1,0 +1,32 @@
+                                                 ADD,SUBTRACT ,MULTIPLY,DIVIDE TO TAKE THE USER INPUT-
+
+
+
+
+
+#include<stdio.h>
+ 
+int main(){
+ int a,b,add,subtract,multiply,divide;
+ printf("Enter number 1: ");
+ scanf("%d",&a);
+ printf("Enter number 2: ");
+ scanf("%d",&b);
+add= a+b;
+subtract = a-b;
+multiply=a*b;
+divide =a/b;
+ printf("Addition is : %d\n",add);
+ printf("Minus is : %d\n",subtract);
+printf("multiply is :%d\n",multiply);
+printf("divide is :%d",divide);
+} 
+
+
+output=Enter number 1: 9
+Enter number 2: 8
+Addition is : 17
+Minus is : 1
+multiply is :72
+divide is :1
+                                    ss

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <body>
+<h1> JAVASCRIPT ARRAY METHOD</h1>
+<h2> THE LENGTH PROPERTY</h2>
+<p>THE LENGTH PROPERTY SETS OR RETURN THE NUMBER OF ELEMENT IN AN ARRAY</p>
+<h2>THE PUSH METHOD TO USE ADDING NEW ELEMENTS </h2>
+<h2 >THE POP METHOD TO USE REMOVE THE LAST ELEMENTS  </h2>
+<h2 > THE SPLICE METHOD TO USE ADDING AND REMOVING THE ARRAY ELEMENTS </h2>
+<h2>THE SHIFT METHOD TO USE REMOVING THE ELEMENTS ON THE BEGNING OF THE ARRAY </h2>
+<h2>THE UNSHIFT METHOD TO USE ADDING NEW ELEMENTS ON THE BEGINING OF THE ARRAY </h2>
+<h2>THE INCLUDE METHOD TO USE CHECK THE ARRAY ELEMENT ON YOUR GIVEN ARRAY ELELMENT  </h2>
+<h2> THE REVERSE ARRAY TO USE REVERSE THE ARRAY OF GIVEN THE ELEMENT</h2>
+<h2>THE CONCAT METHOD TO USE MERGING THE ARRAY OF THE ELEMENT  </h2>
+<h2>THE JOIN METHOD TO USE JOIN NEW ELEMENT BETWEEN TWO ARRAY OF THE ELEMENT </h2>
+<h2>THE SLICE METHOD TO USE REMOVING THE INDEXING ARRAY OF THE ELEMENT </h2>
+<h2>THE SORT METHOD TO USE SORTING THE ARRAY OF THE ELEMENT ALPHABETICALY   </h2>
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+<p id="demo6"></p>
+<p id="demo7"></p>
+<p id="demo8"></p>
+<p id="demo9"></p>
+<p id="demo10"></p>
+<p id ="demo11"></p>
+<script>
+    const fruit= ["Apple"  ,   " Mango"  , " Kiwi"  ,"Strawary "  , "Dragonfruits "  ,  " Lichi"  , "Pineapple"  , " Watermelon"];
+    function myFunction(){
+        fruit.length=(8) ;    
+     document.getElementById("demo").innerHTML=fruit;
+     } function myFunction1(){
+        fruit.push ("Orange"); 
+     document.getElementById("demo1").innerHTML=fruit;
+     }function myFunction2(){
+        fruit.pop(); 
+    document.getElementById("demo2").innerHTML=fruit;
+     }function myFunction3(){
+        fruit.splice(2,1 );   
+    document.getElementById("demo3").innerHTML=fruit;
+     }function myFunction4(){
+        fruit.shift();   
+    document.getElementById("demo4").innerHTML=fruit;
+     }function myFunction5(){
+        fruit.unshift("pumkin","pomigrains");    
+    document.getElementById("demo5").innerHTML=fruit;
+    }function myFunction6(){    
+    document.getElementById("demo6").innerHTML=" gauva,pomigrain : "   + fruit.includes("gauva","pomigrains ") ;
+    }function myFunction7(){
+        fruit.reverse();    
+    document.getElementById("demo7").innerHTML=fruit;
+    }function myFunction8(){ 
+    document.getElementById("demo8").innerHTML=fruit.concat("BANANA","BLACKBERRY");
+    }function myFunction9(){   
+    document.getElementById("demo9").innerHTML=fruit.join("@");
+    }function myFunction10(){    
+    document.getElementById("demo10").innerHTML=fruit.slice(5);
+    }function myFunction11(){    
+    document.getElementById("demo11").innerHTML=fruit.sort();
+    }
+
+
+// const fruits= ["Apple"  ,   " Mango"  , " Kiwi"  ,"Strawary "  , "Dragonfruits "  ,  " Lichi"  , "Pineapple"  , " Watermelon"];
+//   fruits.length=( 8) ;
+//   document.getElementById("demo").innerHTML=fruits;
+//  fruits.push("Orange");
+//  document.getElementById("demo1").innerHTML=fruits ;
+// fruits.pop();
+//  document.getElementById("demo2").innerHTML=fruits;
+// fruits.splice(2,1 );
+//  document.getElementById("demo3").innerHTML=fruits;
+// fruits.shift();
+// document.getElementById("demo4").innerHTML=fruits;
+// fruits.unshift("pumkin","pomigrains");
+//  document.getElementById("demo5").innerHTML=fruits;
+</script>
+<button onclick="myFunction()">CLICKBUTTON</button><br><br><br>
+<button onclick="myFunction1()">CLICKBUTTON1</button><br><br><br>
+<button onclick="myFunction2()">CLICKBUTTON2</button><br><br><br>
+<button onclick="myFunction3()">CLICKBUTTON3</button><br><br><br>
+<button onclick="myFunction4()">CLICKBUTTON4</button><br><br><br>
+<button onclick="myFunction5()">CLICKBUTTON5</button><br><br><br>
+<button onclick="myFunction6()">CLICKBUTTON6</button><br><br><br>
+<button onclick="myFunction7()">CLICKBUTTON7</button><br><br><br>
+<button onclick="myFunction8()">CLICKBUTTON8</button><br><br><br>
+<button onclick="myFunction9()">CLICKBUTTON9</button><br><br><br>
+<button onclick="myFunction10()">CLICKBUTTON10</button><br><br><br>
+<button onclick="myFunction11()">CLICKBUTTON11</button>
+</body>
+</html>

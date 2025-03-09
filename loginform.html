@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href ="loginform.css">
+    <title>ANIMATED LOGIN FORM</title>
+    </head>
+    <script type="text/javascript">
+let arrList=[];   
+function Loginform(event){
+event.preventDefault();
+let name= document.getElementById("nameInput").value;
+let emailid= document.getElementById("emailidInput").value;
+let password=document.getElementById("passwordInput").value;
+let mobilenumber= document.getElementById("mobilenumberInput").value;
+arrList.push ({"name": name,"emailid": emailid,"password": password,"mobilenumber": mobilenumber,});
+document.getElementById("nameInput").value="";
+document.getElementById("emailidInput").value="";
+document.getElementById("passwordInput").value= "";
+document.getElementById("mobilenumberInput").value="";
+}
+    </script>
+    <body>
+  <div id="memo">  
+  <div id="memo1"> 
+  <div id="memo2 "> 
+    <h2>  Login  </h2>
+<form action="  ">
+<label for ="fname "> Name </label>
+<input type ="name" placeholder=" Enter your name"id="nameInput" ><br/>
+<label for ="email" id="Lab"> emailid </label>
+<input type = " email id " placeholder= " Enter email id " id="emailidInput" ><br/>
+<label for ="password" id="Lab1"> password </label> 
+<input type ="password" placeholder ="Enter password" id="passwordInput" ><br/>
+<label for ="mobilenumber" id="Lab2">mobilenumber</label>  
+<input type ="tel" placeholder ="Enter mobile number"  id="mobilenumberInput" ><br/>
+<p><input type="checkbox" >Remember Me<a href =" #" > forget password</a></p>
+<input type ="submit" value="Submit" id="loginInput" onclick ="Loginform(event)" style="background-image: linear-gradient(to left,rgb(234, 234, 11),rgb(12, 12, 149));" >
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>

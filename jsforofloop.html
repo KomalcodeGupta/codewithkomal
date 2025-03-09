@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript For Of Loop</h2>
+<p id="demo"></p>
+<p id="demo1"></p>
+<script>
+    //array type
+const fruits = ["MANGO ","APPLE ","PINEAPPLE ","PAPAYA","LICHI "," KIWI"," GAUVA"];
+
+let text = "";
+for (let x of fruits) {
+  text += x + "<br>";
+}
+document.getElementById("demo").innerHTML = text;
+//string type   
+const language = "JAVASCRIPT";
+let text1 = "";
+for (let y of language) {
+  text1 += y + "<br>";
+}
+document.getElementById("demo1").innerHTML=text1;
+
+</script>
+</body>
+</html>

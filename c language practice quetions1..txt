@@ -1,0 +1,60 @@
+1.What is variable in c?
+answer-there are some variables in c-
+int- used the integer value.
+float-used the decimal value.
+char-used the character value.
+double-used the decimal value into the 15 to 16 digits after decimal.  
+
+2.what is difference between while and do while loop?
+answer-The  main difference between while and do while loops are the following below-
+ In while loop-check the condition before the execution of the statements.it is entry controlled.
+In do while loop - statements are executed at least once before evaluating the condition.it is exit controlled.
+ 3.What is for loop? Please give example?
+ansewr-A loop in which the statements and conditions are in same line at the several time .
+ for example-  #include <stdio.h>                                       
+                                                                                                                       
+           int main() {
+ for(int i = 1; i <= 7; i++) {
+    printf("%d\n",fact);   
+
+}
+  } 
+
+output= 1 
+        2
+        3
+        4
+        5
+        6
+        7
+
+4.What is factorial in c? For number get 8.
+answer-All positive descending integers are added together to determine the factor of n .so, the factorial of n will be denoted by n! and factor of n in c programming language.
+
+get the number is 8 for factorial-
+#include <stdio.h>                                       
+                                                                                                                       
+  int main() {
+  int fact = 1;
+ for(int i = 1; i <= 8; i++) {
+ fact = fact * i;
+  
+  printf("%d\n",fact);               output=    1 
+                                                2
+    }                                           6
+     }                                         24
+                                              120
+                                              720
+                                             5040
+                                            40320   
+  
+5.How can be used pattern in C? Below the figure-
+                      *
+                    ***
+                    ***
+                   ****
+                  *****
+                  *****                      
+
+
+answer- 

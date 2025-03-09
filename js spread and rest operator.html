@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+<h1>  THE SPREAD AND REST OPERATOR</h1>
+<p>the spreadoperator is used to copy all parts of  the existing array into another array.  </p>
+<p> the restoperator is used to allow the function to treat an indifinite number of arguments as an array.</p>
+</body>
+<script>
+//spread operator
+ let arr=[1,2,34,,45,54];
+let arr3=[...arr];
+arr.pop();{
+ document.write(arr,"<br>");
+document.write(arr3,"<br>"),"<br>";
+}
+//rest operator
+function alphabate(a,b,c,d,e,f,g,h,i,j,k,l,...z){
+document.write(a,b,c,d,e,f,g,h,i,j,k,l,z,"<br>");
+}
+
+alphabate(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26);
+
+    </script>
+</html>

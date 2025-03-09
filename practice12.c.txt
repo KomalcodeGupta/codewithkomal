@@ -1,0 +1,34 @@
+#include <stdio.h>#include <stdio.h>
+
+int main() {
+  int myAge = 22;
+  int capabletovotingAge = 18;
+
+  if (myAge >= capabletovotingAge) {
+    printf("you are free for voting");
+  } else {
+    printf("  you are not capable for voting");
+  }
+  
+  return 0;
+}
+                                  output=  you are free for voting
+int main() {
+  int myAge = 16;
+  int capabletovotingAge = 18;
+
+  if (myAge >= capabletovotingAge) {
+    printf("you are free for voting");
+  } else {
+    printf("  you are not capable for voting");
+  }
+    return0;
+}                       
+
+
+                                 output= you are not capable for voting
+ 
+                            
+                                           
+
+                                          

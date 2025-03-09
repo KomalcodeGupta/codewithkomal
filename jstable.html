@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+
+
+     <script>
+// table 
+  let num = 5;
+   let  table;
+   for(let  i=1; i <= 10; i++) {  
+  table = num * i;
+   document.write(num,"*",i,"=",table,"<br>"),"<br>";
+   }
+  
+      //factorial
+    let fact=1 ;
+    let i;
+   for(let i=1 ; i <=4; i++) {  
+   fact = fact * i;
+   document.write(fact,"<br>"),"<br>";
+  }  
+   //half pyramid printing
+ let N = 5;
+  for(let i=1; i<= N; i++) { 
+  for(let j=1; j <= i; j++) {
+   
+  document.write("*");
+}  
+document.write("<br>"),"<br>";
+  }
+// In reverse half pyramid
+let M = 5;
+  for(let i =M; i>= 1; i--) { 
+  for(let j=1; j <=i; j++) {
+   
+  document.write("*");
+}  
+document.write("<br>"),"<br>";
+  }
+  //number printing
+let x =1;
+while (  x <= 50 ){
+document.write(x,"<br>"),"<br>" ;
+x++;
+}
+//Area of rectangle printing
+
+let length=9;
+let breath=5;
+ let area =length* breath;{
+ document.write(area,"<br>"),"<br>";
+ }
+ //square and cubic 
+  
+ const a = 12;
+const square =a*a;
+const cubic =a*a*a;{
+
+document.write(square,"<br>",cubic,"<br>"),"<br>";
+}
+// Any pattern with / printing 
+document.write("/\\","<br>");
+document.write("//\\\\","<br>");
+document.write("///\\\\\\","<br>");
+document.write("////\\\\\\\\","<br>");
+document.write("/////\\\\\\\\\\","<br>");
+document.write("||||","<br>");
+document.write("||||","<br>");
+document.write("||||","<br>");
+document.write("||||","<br>");
+document.write("||||","<br>");
+//even and odd
+let b=prompt ("Enter any number.");
+if(b%2==0){
+  document.write("ENTER NUMBER IS EVEN","<br>")
+}else{
+  document.write("ENTER NUMBER IS ODD","<br>");
+}
+// divisible and multiple with any number
+let m =48 ;
+if(m%4==0){
+  document.write("ENTER NUMBER IS DIVISIBLE BY 4 .","<br>")
+}else{
+  document.write("ENTER NUMBER IS NOT DIVISIBLE BY 4 .","<br>");
+}
+//swapping
+let o =4;
+let p =5;
+let rahul;
+rahul = o ;
+o = p ;
+p= rahul;
+document.write(`The value of o after swapping: ${o}`,"<br>");//The value of p after swapping: ${p};
+ document.write(`The value of p after swapping: ${p}`,"<br>");
+//asscending and decending
+const Element=[2,3,4,1,5,6,7,8,9];
+function myFunction1(){
+  Element.length(9);
+  document.getElementById("demo1").innerHTML=Element;
+}function myFunction2(){
+  Element.sort();
+document.getElementById("demo2").innerHTML=Element;
+}function myFunction3(){
+  Element.reverse();
+ document.getElementById("demo3").innerHTML=Element;
+}  
+
+
+
+
+
+</script>
+</body>       
+</html>  
+    
+    
+ 

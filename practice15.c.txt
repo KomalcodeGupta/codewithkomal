@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main() {
+  int carscompanies=5;
+  
+  switch (carscompanies) {
+    case 1:
+      printf("AUDI");
+      break;
+    case 2:
+      printf("SUZUKI");
+      break;
+    case 3:
+      printf("MAHINDRA");
+      break;
+    case 4:
+      printf("TOYOTA");
+      break;
+    case 5:
+      printf("BMW");
+      break;
+    case 6:
+      printf("JAGUAR");
+      break;
+    case 7:
+      printf("TATA");
+      break;
+    case 8:
+      printf("HYUNDIA");
+      break;
+    case 9:
+      printf("FORD");
+      break;
+    case 10:
+      printf("MERCIDIES");
+      break;  
+ }
+     return 0;
+}
+
+
+                                        output=BMW
